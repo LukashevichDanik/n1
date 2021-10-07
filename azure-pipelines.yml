@@ -8,16 +8,6 @@ trigger:
 
 pool: default
 
-pr:
- branches:
-   include:
-     - main
- paths:
-   include:
-     - code
-   exclude:
-     - docs
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
