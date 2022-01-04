@@ -12,7 +12,7 @@ trigger:
 pr: 
   branches:
       include:
-      - main1
+      - test
       exclude:
       - main
 
