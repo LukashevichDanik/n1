@@ -9,12 +9,7 @@ trigger:
     include:
       - main
 
-pr: 
-  branches:
-      include:
-      - test
-      exclude:
-      - main
+pr: none
 
 pool: default
 
